@@ -1,0 +1,17 @@
+print("All about String")
+prof_name = "Najup dada"
+print(prof_name +"\t  is so cool.")
+print(prof_name.upper())
+print(prof_name.lower())
+print(prof_name.isupper())
+print(prof_name.islower())
+print(prof_name.title())
+char_length = len(prof_name)
+print(char_length)
+print(prof_name[0])
+print(prof_name.index("d"))
+print(prof_name.replace("dada", "ram"))
+demo_text = " ram "
+print(demo_text.rstrip())
+print(demo_text.lstrip())
+print(demo_text.strip())
